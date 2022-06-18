@@ -3,10 +3,11 @@ package main
 
 import (
 	"log"
+
+	"github.com/dandumitriu33/useful-go/interfacesexample"
 )
 
 func main() {
-	log.Println("Hello world!")
-	log.Println("Hello world!")
-	log.Println("Hello world!")
+	log.Println("Useful things in Go.")
+	interfacesexample.DemoInterfaces()
 }
